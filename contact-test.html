@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick Crusaders</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="images/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </a>
+            <ul class="navbar">
+                <li><a href="models.html">Models</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="updates.html">Updates</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>            
+        </nav>
+    </header>
+
+    <main>
+
+<!-- CONTACT -->
+        <section class="contact-section">
+            <div class="contact-wrapper">
+                <form action="contact.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                  
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                  
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                  
+                    <button type="submit">Send</button>
+                  </form>                  
+            </div>
+        </section>
+
+<!--Needs Work-->
+    <footer>
+        <p>&copy; 2025 Brick Crusaders. All rights reserved.</p>
+    </footer>
+</body>
+</html>
