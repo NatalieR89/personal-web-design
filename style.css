@@ -117,15 +117,17 @@ body {
     margin: auto;
     font-size: 75px;
     text-align: center;
+    text-shadow: 2px 2px 5px black;
 }
 
 .about p {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: bold;
     text-align: left;
     padding-top: 100px;
     padding-left: 150px;
     padding-right: 150px;
+    text-shadow: 2px 2px 5px black;
 }
 
 /* FOOTER */
