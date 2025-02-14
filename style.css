@@ -50,7 +50,7 @@
     border-radius: 25px;
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 25px;
 }
 
 nav {
@@ -71,6 +71,7 @@ nav {
     margin: 0px 15px;
     font-size: 25px;
     font-weight: bold;
+    padding: 25px;
 }
 
 .navbar a {
@@ -146,7 +147,6 @@ body {
 
 .update-wrapper {
     text-align: center;
-    padding-top: 50px;
     font-size: 75px;
     text-shadow: 2px 2px 5px black;
 }
