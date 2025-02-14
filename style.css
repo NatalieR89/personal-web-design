@@ -147,9 +147,21 @@ body {
     text-shadow: 2px 2px 5px black;
 }
 
+.update-wrapper h2 {
+    font-size: 40px;
+    text-align: left;
+}
+
 .update-wrapper p {
     font-size: 30px;
     font-weight: bold;
+    text-align: left;
+}
+
+.update-wrapper li {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 5px;
 }
 
 /* FOOTER */
