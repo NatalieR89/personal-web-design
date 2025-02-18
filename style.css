@@ -154,12 +154,18 @@ body {
 .update-wrapper h2 {
     font-size: 40px;
     text-align: left;
+    padding-left: 50px;
 }
 
 .update-wrapper p {
     font-size: 30px;
     font-weight: bold;
     text-align: left;
+    padding-left: 75px;
+}
+
+.update-wrapper ul {
+    padding-left: 100px;
 }
 
 .update-wrapper li {
