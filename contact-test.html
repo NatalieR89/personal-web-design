@@ -28,22 +28,28 @@
     <main>
 
 <!-- CONTACT -->
-        <section class="contact-section">
-            <div class="contact-wrapper">
-                <form action="contact.php" method="POST">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                  
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                  
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="10" cols="50" required></textarea>
-                  
-                    <button type="submit">Send</button>
-                  </form>                  
-            </div>
-        </section>
+
+    <body>
+        <h1>Contact Us</h1>
+        <p>Have questions or comments? We'd love to hear from you!</p>
+
+        <form action="https://formsubmit.co/info.brickcrusaders@gmail.com" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="6" cols="50" required></textarea><br><br>
+
+                <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+                <input type="hidden" name="_captcha" value="false">
+
+                <button type="submit">Send Message</button>
+            </form>
+        </body>
+    </main>
 
 <!--Needs Work-->
     <footer>
